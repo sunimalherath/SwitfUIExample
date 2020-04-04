@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  SwiftUILearning
+//  PopupView
 //
-//  Created by Sunimal Herath on 6/3/20.
+//  Created by Sunimal Herath on 4/4/20.
 //  Copyright © 2020 Sunimal Herath. All rights reserved.
 //
 
@@ -10,15 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            CardImageView()
-            List{
-                VideoRow()
-                VideoRow()
-                VideoRow()
-                VideoRow()
-            }
-        }
+        Text("Hello, World!")
     }
 }
 
